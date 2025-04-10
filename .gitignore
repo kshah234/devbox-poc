@@ -1,0 +1,11 @@
+# Devbox environment files
+.devbox/
+
+# Python virtual environments
+.venv/
+
+# General environment, build, and editor folders
+.idea/
+
+#Nodejs Node module folder
+node_modules/
