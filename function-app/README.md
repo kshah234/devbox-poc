@@ -67,3 +67,19 @@ devbox add <package>@<version>
 ```bash
 devbox rm <package>
 ```
+
+## Getting Started with json-server
+
+This project sets up a local mock server using json-server to simulate external API behavior for testing and development purposes. 
+It includes dynamic response support using custom middleware.
+
+### Start the Server (via Devbox)
+
+```bash
+devbox run mock-server
+```
+
+### Mocked Endpoints URLs
+
+1. GET /cmdb_ci_server?name=us6salxdev00002
+2. GET /health
