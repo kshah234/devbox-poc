@@ -15,12 +15,17 @@
   },
   "shell": {
     "init_hook": [
-      "echo Welcome to Devbox!",
-      "npm install azure-functions-core-tools@4 --unsafe-perm true"
+      "echo Welcome to Devbox!"
     ],
     "scripts": {
       "test": [
         "echo \"Error: no test specified\" && exit 1"
+      ],
+      "install-dependencies": [
+        "npm install"
+      ],
+      "mock-server": [
+        "cd mock-server && npx json-server db.json --port 3000 --middlewares ./middleware.js"
       ]
     }
   }

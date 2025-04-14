@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "azure-functions-core-tools": "^4.0.7030"
+    "azure-functions-core-tools": "^4.0.7030",
+    "json-server": "^0.17.4"
   }
 }
